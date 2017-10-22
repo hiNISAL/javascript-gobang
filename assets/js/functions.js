@@ -98,6 +98,12 @@ function checkAllDirectionChess(x, y){
   // 从左到右
   if(checkOneLineChess(x - 5, y, 1, 0, checkerBoard[x][y].type)) return true;
 
+  // if(checkOneLineChess(x - 5, y - 5, 1, 1, checkerBoard[x][y].type)  ||
+  //    checkOneLineChess(x, y - 5, 0, 1, checkerBoard[x][y].type)      ||
+  //    checkOneLineChess(x + 5, y - 5, -1, 1, checkerBoard[x][y].type) ||
+  //    checkOneLineChess(x - 5, y, 1, 0, checkerBoard[x][y].type)
+  // ) retrn true;
+  
   return false;
 }
 
